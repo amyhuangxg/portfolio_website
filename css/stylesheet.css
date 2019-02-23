@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,700|Varela');
+h1{
+  z-index: 200;
+  font-family: 'Varela', sans-serif;
+  font-weight: bold;
+}
+h1.homepage{
+  font-size: 6.5vw;
+  letter-spacing: 0.4vw;
+  line-height: 1;
+}
+h1.inbar{
+  font-size: 2.5vw;
+  letter-spacing: 0.14vw;
+  line-height: 1;
+  position: fixed;
+  top: 0.5vw;
+  left: 5vw;
+}
+h2{
+  font-family: 'Varela', sans-serif;
+  font-size: 2.8vw;
+  letter-spacing: 0.14vw;
+}
+h3{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: 1.5vw;
+}
+p{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.75vw;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+.topmenu{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: 1.8vw;
+  text-transform: uppercase;
+  letter-spacing: 0.2vw;
+  display: block;
+}
+.topmenu:hover{
+  font-size: 2vw;
+}
+.barmenu{
+  z-index: 200;
+}
+.whitebar{
+  z-index: 199;
+  width: 100vw;
+  height: 9vw;
+  background-color: white;
+}
+.barmenu.attop{
+  position: fixed;
+  top:0;
+}
+.barmenu>li{
+  display: inline-block;
+}
+.barmenu a{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5vw;
+  text-transform: uppercase;
+  letter-spacing: 0.2vw;
+  font-weight: 400;
+  text-align: center;
+  display: inline-block;
+  width:15vw;
+  margin: 0.5vw 0 0.2vw 0;
+  border: solid 0.5vw transparent;
+  padding: 0.5vw;
+}
+.barmenu a:hover{
+  font-size: 1.7vw;
+  margin: 0;
+  padding: 0.5vw;
+  border: solid 0.5vw black;
+}
+.backtotop{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1vw;
+  text-transform: uppercase;
+  letter-spacing: 0.1vw;
+  font-weight: 700;
+  text-align: center;
+  display: block;
+}
+.backtotop:hover{
+  font-size: 1.2vw;
+}

@@ -1,0 +1,330 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,700');
+body{
+	font-family: 'Nunito Sans', sans-serif;
+	background-color: rgb(230, 231, 233);
+}
+.poster{
+	position: relative;
+	height: 100vh;
+	width: 68vh;
+	padding: 0;
+	margin: 2vh auto 3vh auto;
+}
+.poster:before{
+	z-index: 100;
+    content:'';
+    position:absolute;
+	height: 100vh;
+	width: 68vh;
+    box-shadow: 0 0 0 1000vh white;
+}
+/* TEXT*/
+h1{
+	z-index: 90;
+	position: absolute;
+	top: 63vh;
+    float: left;
+    clear: left;
+    width: 17vh;
+    text-align: right;
+	font-size: 3vh;
+	letter-spacing: -0.1vh;
+}
+dl{
+	z-index: 90;
+	position: absolute;
+	top: 72vh;
+	font-size: 1.1vh;
+	line-height: 1.15vh;
+	letter-spacing: -0.05vh;
+}
+dt {
+    float: left;
+    clear: left;
+    width: 17vh;
+    text-align: right;
+    padding: 0.7vh 0 0 0;
+}
+dd {
+    margin: 0 0 0 18vh;
+}
+.first{
+	padding: 0.5vh 0 0 0;
+}
+/* GRAPHICS */
+.ring1{
+	z-index: 87;
+	position: absolute;
+	bottom: 5.8vh;
+	left: -4.2vh;
+	background: rgb(230, 231, 233);
+    width:42.4vh;
+    height:42.4vh;
+    border-radius:21.2vh;
+}
+.circle1o {
+	z-index: 80;
+	position: absolute;
+	top: 50.8vh;
+	left: -5.2vh;
+  	padding: 0vh;
+    width: 44.4vh;
+    height: 44.4vh;
+	border-radius: 22.2vh;
+  	overflow: hidden;
+}
+.c1o {
+  	overflow: hidden;
+  	position: absolute;
+  	top: 0;
+  	right: 0;
+  	width: 50%;
+  	height: 50%;
+ 	transform-origin: 0% 100%;
+}
+.c1o:first-child {
+	transform: rotate(67.5deg) skewY(-33.75deg);
+	background: black;
+	animation: spin2 4s linear 1s infinite;
+}
+.c1o:nth-child(2) {
+	transform: rotate(225deg) skewY(-33.75deg);
+	background: black;
+	animation: spin1 4s linear 1s infinite;
+}
+.ring2{
+	z-index: 77;
+	position: absolute;
+	bottom: 4.6vh;
+	left: -5.4vh;
+	background: rgb(230, 231, 233);
+	height: 44.8vh;
+	width: 44.8vh;
+	border-radius: 22.4vh;
+}
+.circle2o {
+	z-index: 70;
+	position: absolute;
+	top: 48.6vh;
+	left: -7.4vh;
+  	padding: 0vh;
+	height: 48.8vh;
+	width: 48.8vh;
+	border-radius: 24.4vh;
+  	overflow: hidden;
+}
+.c2o {
+  	overflow: hidden;
+  	position: absolute;
+  	top: 0;
+  	right: 0;
+  	width: 50%;
+  	height: 50%;
+ 	transform-origin: 0% 100%;
+}
+.c2o:first-child {
+	transform: rotate(45deg) skewY(-22.5deg);
+	background: black;
+	animation: spin1 2s linear 1s infinite;
+}
+.c2o:nth-child(2) {
+	transform: rotate(180deg) skewY(-22.5deg);
+	background: black;
+	animation: spin1 8s linear 1s infinite;
+}
+.ring3{
+	z-index: 67;
+	position: absolute;
+	bottom: 2.4vh;
+	left: -7.6vh;
+	background: rgb(230, 231, 233);
+	height: 49.2vh;
+	width: 49.2vh;
+	border-radius: 24.6vh;
+}
+.circle3o {
+	z-index: 60;
+	position: absolute;
+	top: 44.4vh;
+	left: -11.6vh;
+  	padding: 0vh;
+	height: 57.2vh;
+	width: 57.2vh;
+	border-radius: 28.6vh;
+  	overflow: hidden;
+}
+.c3o {
+  	overflow: hidden;
+  	position: absolute;
+  	top: 0;
+  	right: 0;
+  	width: 50%;
+  	height: 50%;
+ 	transform-origin: 0% 100%;
+}
+.c3o:first-child {
+	transform: rotate(11.25deg) skewY(-11.25deg);
+	background: black;
+	animation: spin1 6s linear 1s infinite;
+}
+.c3o:nth-child(2) {
+	transform: rotate(135deg) skewY(0deg);
+	background: black;
+	animation: spin2 5s linear 1s infinite;
+}
+.ring4{
+	z-index: 57;
+	position: absolute;
+	bottom: -1.8vh;
+	left: -11.8vh;
+	background: rgb(230, 231, 233);
+	height: 57.6vh;
+	width: 57.6vh;
+	border-radius: 28.8vh;
+}
+.circle4o {
+	z-index: 50;
+	position: absolute;
+	top: 36.2vh;
+	left: -19.8vh;
+  	padding: 0vh;
+	height: 73.6vh;
+	width: 73.6vh;
+	border-radius: 36.8vh;
+  	overflow: hidden;
+}
+.c4o {
+  	overflow: hidden;
+  	position: absolute;
+  	top: 0;
+  	right: 0;
+  	width: 50%;
+  	height: 100%;
+ 	transform-origin: 0% 50%;
+}
+.c4o:first-child {
+	transform: rotate(0deg) skewY(0deg);
+	background: black;
+	animation: spin2 7s linear 1s infinite;
+}
+.c4o:nth-child(2) {
+	height: 50%;
+	transform-origin: 0% 100%;
+	transform: rotate(180deg) skewY(0deg);
+	background: black;
+	animation: spin2 7s linear 1s infinite;
+}
+.ring5{
+	z-index: 47;
+	position: absolute;
+	bottom: -10vh;
+	left: -20vh;
+	background: rgb(230, 231, 233);
+	height: 74vh;
+	width: 74vh;
+	border-radius: 37vh;
+}
+.circle5o {
+	z-index: 40;
+	position: absolute;
+	top: 20vh;
+	left: -36vh;
+  	padding: 0vh;
+	height: 106vh;
+	width: 106vh;
+	border-radius: 53vh;
+  	overflow: hidden;
+}
+.c5o {
+  	overflow: hidden;
+  	position: absolute;
+  	top: 0;
+  	right: 0;
+  	width: 50%;
+  	height: 100%;
+ 	transform-origin: 0% 50%;
+ 	animation: spin1 8s linear 1s infinite;
+}
+.c5o:first-child {
+	transform: rotate(45deg) skewY(0deg);
+	background: black;
+}
+.ring6{
+	z-index: 37;
+	position: absolute;
+	bottom: -26.2vh;
+	left: -36.2vh;
+	background: rgb(230, 231, 233);
+	height: 106.4vh;
+	width: 106.4vh;
+	border-radius: 53.2vh;
+}
+.circle6o {
+	z-index: 30;
+	position: absolute;
+	top: -12.2vh;
+	left: -68.2vh;
+  	padding: 0vh;
+	height: 170.4vh;
+	width: 170.4vh;
+	border-radius: 85.2vh;
+  	overflow: hidden;
+}
+.c6o {
+  	overflow: hidden;
+  	position: absolute;
+  	top: 0;
+  	right: 0;
+  	width: 50%;
+  	height: 100%;
+ 	transform-origin: 0% 50%;
+}
+.c6o:first-child {
+	transform: rotate(-11.25deg) skewY(0deg);
+	background: black;
+	animation: spin1 3s linear 1s infinite;
+}
+.ring7{
+	z-index: 27;
+	position: absolute;
+	bottom: -58.4vh;
+	left: -68.4vh;
+	background: rgb(230, 231, 233);
+	height: 170.8vh;
+	width: 170.8vh;
+	border-radius: 85.4vh;
+}
+.circle7o {
+	z-index: 20;
+	position: absolute;
+	top: -76.4vh;
+	left: -132.4vh;
+  	padding: 0vh;
+	height: 298.8vh;
+	width: 298.8vh;
+	border-radius: 149.4vh;
+  	overflow: hidden;
+}
+.c7o {
+  	overflow: hidden;
+  	position: absolute;
+  	top: 0;
+  	right: 0;
+  	width: 50%;
+  	height: 50%;
+ 	transform-origin: 0% 100%;
+}
+.c7o:first-child {
+	transform: rotate(0deg) skewY(0deg);
+	background: black;
+	animation: spin2 5s linear 1s infinite;
+}
+/* ANIMATION */
+@keyframes spin1 {
+    from {transform:rotate(0deg);}
+    to {transform:rotate(360deg);}
+}
+@keyframes spin2 {
+    from {transform:rotate(0deg);}
+    to {transform:rotate(-360deg);}
+}
