@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,700|Varela');
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,700|Varela');
 h1{
   z-index: 200;
   font-family: 'Varela', sans-serif;
@@ -14,37 +14,43 @@ h1.inbar{
   letter-spacing: 0.14vw;
   line-height: 1;
   position: fixed;
-  top: 0.5vw;
+  top: 0vw;
   left: 5vw;
 }
 h2{
-  font-family: 'Varela', sans-serif;
-  font-size: 2.8vw;
+  font-family: 'Nunito Sans', sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 2.2vw;
+  opacity: 70%;
   letter-spacing: 0.14vw;
+  line-height: 150%;
 }
 h3{
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 300;
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 200;
   font-size: 1.5vw;
 }
 p{
-  font-family: 'Montserrat', sans-serif;
-  font-size: 1.75vw;
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 300;
+  font-size: 1.6vw;
+  margin-bottom: 5%
 }
 a{
   text-decoration: none;
   color: black;
 }
 .topmenu{
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 300;
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 200;
   font-size: 1.8vw;
   text-transform: uppercase;
   letter-spacing: 0.2vw;
   display: block;
 }
 .topmenu:hover{
-  font-size: 2vw;
+  font-size: 2.02vw;
 }
 .barmenu{
   z-index: 200;
@@ -52,7 +58,7 @@ a{
 .whitebar{
   z-index: 199;
   width: 100vw;
-  height: 9vw;
+  height: 8vw;
   background-color: white;
 }
 .barmenu.attop{
@@ -63,8 +69,8 @@ a{
   display: inline-block;
 }
 .barmenu a{
-  font-family: 'Montserrat', sans-serif;
-  font-size: 1.5vw;
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 1.4vw;
   text-transform: uppercase;
   letter-spacing: 0.2vw;
   font-weight: 400;
@@ -76,13 +82,13 @@ a{
   padding: 0.5vw;
 }
 .barmenu a:hover{
-  font-size: 1.7vw;
+  font-size: 1.5vw;
   margin: 0;
   padding: 0.5vw;
   border: solid 0.5vw black;
 }
 .backtotop{
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   font-size: 1vw;
   text-transform: uppercase;
   letter-spacing: 0.1vw;
