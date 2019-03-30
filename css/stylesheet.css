@@ -26,16 +26,32 @@ h2{
   letter-spacing: 0.14vw;
   line-height: 150%;
 }
+h2.centered{
+  text-align: center;
+}
 h3{
   font-family: 'Nunito Sans', sans-serif;
   font-weight: 200;
   font-size: 1.5vw;
+  margin-left: 10vw;
 }
 p{
   font-family: 'Nunito Sans', sans-serif;
   font-weight: 300;
+  color: black;
   font-size: 1.6vw;
-  margin-bottom: 5%
+  margin-bottom: 1.6vw;
+}
+.textbox p{
+  font-size: 1.2vw;
+  font-weight: 200;
+}
+p.og{
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 300;
+    color: black;
+    font-size: 1.6vw;
+    margin-bottom: 1.6vw;
 }
 a{
   text-decoration: none;
@@ -77,13 +93,13 @@ a{
   text-align: center;
   display: inline-block;
   width:15vw;
-  margin: 0.5vw 0 0.2vw 0;
+  margin: 0.3vw 0.25vw ;
   border: solid 0.5vw transparent;
   padding: 0.5vw;
 }
 .barmenu a:hover{
   font-size: 1.5vw;
-  margin: 0;
+  margin: 0vw 0.25vw;
   padding: 0.5vw;
   border: solid 0.5vw black;
 }
@@ -98,4 +114,30 @@ a{
 }
 .backtotop:hover{
   font-size: 1.2vw;
+}
+.under_construction{
+  height:100vh;
+  width: 100vw;
+}
+.under_construction>.dialogueBox{
+  height: 25vw;
+  width: 25vw;
+  position: relative;
+  top: 15vw;
+  left: 35vw;
+}
+.under_construction>.dialogueBox>img{
+  z-index: 10;
+  height: 25vw;
+  width: 25vw;
+}
+.under_construction>.dialogueBox>.text{
+  z-index:20;
+  text-align: center;
+  position: relative;
+  top:-27.5vw;
+  padding: 3vw;
+}
+.under_construction>.dialogueBox a{
+  font-weight: 700;
 }

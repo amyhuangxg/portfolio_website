@@ -62,7 +62,7 @@ body{
 }
 .mainfeatureblock img{
   display: block;
-  width:85vw;
+  width:86vw;
   margin-top: 1vw;
   height: 35vw;
   background-color: grey;
@@ -77,10 +77,19 @@ body{
 }
 .sidefeatureblock img{
   display: block;
-  width:38.25vw;
-  height: 15.75vw;
+  width:41vw;
+  height: 17vw;
   margin-top: 1vw;
   background-color: grey;
+}
+.textblock{
+  margin: 0 7vw;
+}
+.contentblock{
+  margin: 0 20vw;
+}
+.textbox{
+  width: 40vw;
 }
 footer{
   display: block;
@@ -113,7 +122,7 @@ h1.homepage>.second{
 }
 .intro .line{
   display: inline-block;
-  height: 16vw;
+  height: 16.5vw;
   width:0.1vw;
   background-color: black;
   position:relative;
@@ -163,10 +172,14 @@ margin:0;
   display: inline-block;
   position: relative;
   left: -60vw;
-  top: 25vw;
+  top: 23vw;
 }
 .positionblock.index1{
   position: absolute;
   top:52vw;
   margin-top:7vw;
+}
+.under_construction.index{
+  position:relative;
+  top:33vw;
 }
